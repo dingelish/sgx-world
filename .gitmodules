@@ -1,0 +1,416 @@
+[submodule "erased-serde-sgx"]
+	path = erased-serde-sgx
+	url = git@github.com:mesalock-linux/erased-serde-sgx.git
+	branch = master
+[submodule "rand-sgx"]
+	path = rand-sgx
+	url = git@github.com:mesalock-linux/rand-sgx.git
+	branch = master
+[submodule "utils-sgx"]
+	path = utils-sgx
+	url = git@github.com:mesalock-linux/utils-sgx.git
+	branch = master
+[submodule "quick-error-sgx"]
+	path = quick-error-sgx
+	url = git@github.com:mesalock-linux/quick-error-sgx.git
+	branch = master
+[submodule "rustcrypto-block-ciphers-sgx"]
+	path = rustcrypto-block-ciphers-sgx
+	url = git@github.com:mesalock-linux/rustcrypto-block-ciphers-sgx.git
+	branch = master
+[submodule "num-traits-sgx"]
+	path = num-traits-sgx
+	url = git@github.com:mesalock-linux/num-traits-sgx.git
+	branch = master
+[submodule "serde-sgx"]
+	path = serde-sgx
+	url = git@github.com:mesalock-linux/serde-sgx.git
+	branch = master
+[submodule "rust-crc32fast-sgx"]
+	path = rust-crc32fast-sgx
+	url = git@github.com:mesalock-linux/rust-crc32fast-sgx.git
+	branch = master
+[submodule "rust-protobuf-sgx"]
+	path = rust-protobuf-sgx
+	url = git@github.com:mesalock-linux/rust-protobuf-sgx.git
+	branch = v2.8
+[submodule "env_logger-sgx"]
+	path = env_logger-sgx
+	url = git@github.com:mesalock-linux/env_logger-sgx.git
+	branch = master
+[submodule "inventory-sgx"]
+	path = inventory-sgx
+	url = git@github.com:mesalock-linux/inventory-sgx.git
+	branch = master
+[submodule "http_req-sgx"]
+	path = http_req-sgx
+	url = git@github.com:mesalock-linux/http_req-sgx.git
+	branch = master
+[submodule "subtle-sgx"]
+	path = subtle-sgx
+	url = git@github.com:mesalock-linux/subtle-sgx.git
+	branch = master
+[submodule "linked-hash-map-sgx"]
+	path = linked-hash-map-sgx
+	url = git@github.com:mesalock-linux/linked-hash-map-sgx.git
+	branch = master
+[submodule "sputnikvm-sgx"]
+	path = sputnikvm-sgx
+	url = git@github.com:mesalock-linux/sputnikvm-sgx.git
+	branch = master
+[submodule "regex-sgx"]
+	path = regex-sgx
+	url = git@github.com:mesalock-linux/regex-sgx.git
+	branch = master
+[submodule "matrixmultiply-sgx"]
+	path = matrixmultiply-sgx
+	url = git@github.com:mesalock-linux/matrixmultiply-sgx.git
+	branch = master
+[submodule "hashes-sgx"]
+	path = hashes-sgx
+	url = git@github.com:mesalock-linux/hashes-sgx.git
+	branch = master
+[submodule "cbor-sgx"]
+	path = cbor-sgx
+	url = git@github.com:mesalock-linux/cbor-sgx.git
+	branch = master
+[submodule "hmac-drbg-rs-sgx"]
+	path = hmac-drbg-rs-sgx
+	url = git@github.com:mesalock-linux/hmac-drbg-rs-sgx.git
+	branch = master
+[submodule "libbacktrace-sgx"]
+	path = libbacktrace-sgx
+	url = git@github.com:mesalock-linux/libbacktrace-sgx.git
+	branch = master
+[submodule "image-gif-sgx"]
+	path = image-gif-sgx
+	url = git@github.com:mesalock-linux/image-gif-sgx.git
+	branch = master
+[submodule "rustcrypto-RSA-sgx"]
+	path = rustcrypto-RSA-sgx
+	url = git@github.com:mesalock-linux/rustcrypto-RSA-sgx.git
+	branch = master
+[submodule "rust-memchr-sgx"]
+	path = rust-memchr-sgx
+	url = git@github.com:mesalock-linux/rust-memchr-sgx.git
+	branch = master
+[submodule "serde-bytes-sgx"]
+	path = serde-bytes-sgx
+	url = git@github.com:mesalock-linux/serde-bytes-sgx.git
+	branch = master
+[submodule "ucd-generate-sgx"]
+	path = ucd-generate-sgx
+	url = git@github.com:mesalock-linux/ucd-generate-sgx.git
+	branch = master
+[submodule "parity-wasm-sgx"]
+	path = parity-wasm-sgx
+	url = git@github.com:mesalock-linux/parity-wasm-sgx.git
+	branch = master
+[submodule "adler32-rs-sgx"]
+	path = adler32-rs-sgx
+	url = git@github.com:mesalock-linux/adler32-rs-sgx.git
+	branch = master
+[submodule "md5-sgx"]
+	path = md5-sgx
+	url = git@github.com:mesalock-linux/md5-sgx.git
+	branch = master
+[submodule "bytes-sgx"]
+	path = bytes-sgx
+	url = git@github.com:mesalock-linux/bytes-sgx.git
+	branch = master
+[submodule "image-tiff-sgx"]
+	path = image-tiff-sgx
+	url = git@github.com:mesalock-linux/image-tiff-sgx.git
+	branch = master
+[submodule "indexmap-sgx"]
+	path = indexmap-sgx
+	url = git@github.com:mesalock-linux/indexmap-sgx.git
+	branch = master
+[submodule "libflate-sgx"]
+	path = libflate-sgx
+	url = git@github.com:mesalock-linux/libflate-sgx.git
+	branch = master
+[submodule "mio-sgx"]
+	path = mio-sgx
+	url = git@github.com:mesalock-linux/mio-sgx.git
+	branch = v0.6.19_sgx1.0.8
+[submodule "array_tool-sgx"]
+	path = array_tool-sgx
+	url = git@github.com:mesalock-linux/array_tool-sgx.git
+	branch = master
+[submodule "slab-sgx"]
+	path = slab-sgx
+	url = git@github.com:mesalock-linux/slab-sgx.git
+	branch = master
+[submodule "log-sgx"]
+	path = log-sgx
+	url = git@github.com:mesalock-linux/log-sgx.git
+	branch = master
+[submodule "unicase-sgx"]
+	path = unicase-sgx
+	url = git@github.com:mesalock-linux/unicase-sgx.git
+	branch = master
+[submodule "elastic-array-sgx"]
+	path = elastic-array-sgx
+	url = git@github.com:mesalock-linux/elastic-array-sgx.git
+	branch = master
+[submodule "num-integer-sgx"]
+	path = num-integer-sgx
+	url = git@github.com:mesalock-linux/num-integer-sgx.git
+	branch = master
+[submodule "gzip-header-sgx"]
+	path = gzip-header-sgx
+	url = git@github.com:mesalock-linux/gzip-header-sgx.git
+	branch = master
+[submodule "deflate-rs-sgx"]
+	path = deflate-rs-sgx
+	url = git@github.com:mesalock-linux/deflate-rs-sgx.git
+	branch = dev
+[submodule "encoding_rs-sgx"]
+	path = encoding_rs-sgx
+	url = git@github.com:mesalock-linux/encoding_rs-sgx.git
+	branch = master
+[submodule "libc-sgx"]
+	path = libc-sgx
+	url = git@github.com:mesalock-linux/libc-sgx.git
+	branch = master
+[submodule "lzw-sgx"]
+	path = lzw-sgx
+	url = git@github.com:mesalock-linux/lzw-sgx.git
+	branch = master
+[submodule "ring-sgx"]
+	path = ring-sgx
+	url = git@github.com:mesalock-linux/ring-sgx.git
+	branch = master
+[submodule "cryptocorrosion-sgx"]
+	path = cryptocorrosion-sgx
+	url = git@github.com:mesalock-linux/cryptocorrosion-sgx.git
+	branch = master
+[submodule "thread_local-rs-sgx"]
+	path = thread_local-rs-sgx
+	url = git@github.com:mesalock-linux/thread_local-rs-sgx.git
+	branch = master
+[submodule "itoa-sgx"]
+	path = itoa-sgx
+	url = git@github.com:mesalock-linux/itoa-sgx.git
+	branch = master
+[submodule "rust-base64-sgx"]
+	path = rust-base64-sgx
+	url = git@github.com:mesalock-linux/rust-base64-sgx.git
+	branch = master
+[submodule "thread-id-sgx"]
+	path = thread-id-sgx
+	url = git@github.com:mesalock-linux/thread-id-sgx.git
+	branch = master
+[submodule "uuid-sgx"]
+	path = uuid-sgx
+	url = git@github.com:mesalock-linux/uuid-sgx.git
+	branch = master
+[submodule "assert_matches-sgx"]
+	path = assert_matches-sgx
+	url = git@github.com:mesalock-linux/assert_matches-sgx.git
+	branch = master
+[submodule "rustcrypto-traits-sgx"]
+	path = rustcrypto-traits-sgx
+	url = git@github.com:mesalock-linux/rustcrypto-traits-sgx.git
+	branch = master
+[submodule "rust-sha1-sgx"]
+	path = rust-sha1-sgx
+	url = git@github.com:mesalock-linux/rust-sha1-sgx.git
+	branch = master
+[submodule "rust-threshold-secret-sharing-sgx"]
+	path = rust-threshold-secret-sharing-sgx
+	url = git@github.com:mesalock-linux/rust-threshold-secret-sharing-sgx.git
+	branch = master
+[submodule "image-png-sgx"]
+	path = image-png-sgx
+	url = git@github.com:mesalock-linux/image-png-sgx.git
+	branch = master
+[submodule "http-sgx"]
+	path = http-sgx
+	url = git@github.com:mesalock-linux/http-sgx.git
+	branch = master
+[submodule "typetag-sgx"]
+	path = typetag-sgx
+	url = git@github.com:mesalock-linux/typetag-sgx.git
+	branch = master
+[submodule "num-sgx"]
+	path = num-sgx
+	url = git@github.com:mesalock-linux/num-sgx.git
+	branch = master
+[submodule "wasmi-sgx"]
+	path = wasmi-sgx
+	url = git@github.com:mesalock-linux/wasmi-sgx.git
+	branch = master
+[submodule "rusty-machine-sgx"]
+	path = rusty-machine-sgx
+	url = git@github.com:mesalock-linux/rusty-machine-sgx.git
+	branch = master
+[submodule "rulinalg-sgx"]
+	path = rulinalg-sgx
+	url = git@github.com:mesalock-linux/rulinalg-sgx.git
+	branch = master
+[submodule "rustcrypto-stream-ciphers-sgx"]
+	path = rustcrypto-stream-ciphers-sgx
+	url = git@github.com:mesalock-linux/rustcrypto-stream-ciphers-sgx.git
+	branch = master
+[submodule "serde-big-array-sgx"]
+	path = serde-big-array-sgx
+	url = git@github.com:mesalock-linux/serde-big-array-sgx.git
+	branch = master
+[submodule "iovec-sgx"]
+	path = iovec-sgx
+	url = git@github.com:mesalock-linux/iovec-sgx.git
+	branch = master
+[submodule "termcolor-sgx"]
+	path = termcolor-sgx
+	url = git@github.com:mesalock-linux/termcolor-sgx.git
+	branch = master
+[submodule "webpki-roots"]
+	path = webpki-roots
+	url = git@github.com:mesalock-linux/webpki-roots.git
+	branch = mesalock_sgx
+[submodule "rust-hex-sgx"]
+	path = rust-hex-sgx
+	url = git@github.com:mesalock-linux/rust-hex-sgx.git
+	branch = master
+[submodule "heapsize-sgx"]
+	path = heapsize-sgx
+	url = git@github.com:mesalock-linux/heapsize-sgx.git
+	branch = master
+[submodule "num-rational-sgx"]
+	path = num-rational-sgx
+	url = git@github.com:mesalock-linux/num-rational-sgx.git
+	branch = master
+[submodule "net2-rs-sgx"]
+	path = net2-rs-sgx
+	url = git@github.com:mesalock-linux/net2-rs-sgx.git
+	branch = master
+[submodule "num-bigint-sgx"]
+	path = num-bigint-sgx
+	url = git@github.com:mesalock-linux/num-bigint-sgx.git
+	branch = master
+[submodule "libsecp256k1-rs-sgx"]
+	path = libsecp256k1-rs-sgx
+	url = git@github.com:mesalock-linux/libsecp256k1-rs-sgx.git
+	branch = master
+[submodule "humantime-sgx"]
+	path = humantime-sgx
+	url = git@github.com:mesalock-linux/humantime-sgx.git
+	branch = master
+[submodule "rustls.git"]
+	path = rustls.git
+	url = git@github.com:mesalock-linux/rustls
+	branch = mesalock_sgx
+[submodule "rust-fnv-sgx"]
+	path = rust-fnv-sgx
+	url = git@github.com:mesalock-linux/rust-fnv-sgx.git
+	branch = master
+[submodule "rust-base58-sgx"]
+	path = rust-base58-sgx
+	url = git@github.com:mesalock-linux/rust-base58-sgx.git
+	branch = master
+[submodule "getrandom-sgx"]
+	path = getrandom-sgx
+	url = git@github.com:mesalock-linux/getrandom-sgx.git
+	branch = master
+[submodule "parity-common-sgx"]
+	path = parity-common-sgx
+	url = git@github.com:mesalock-linux/parity-common-sgx.git
+	branch = master
+[submodule "toml-rs-sgx"]
+	path = toml-rs-sgx
+	url = git@github.com:mesalock-linux/toml-rs-sgx.git
+	branch = master
+[submodule "serde-json-sgx"]
+	path = serde-json-sgx
+	url = git@github.com:mesalock-linux/serde-json-sgx.git
+	branch = master
+[submodule "webpki"]
+	path = webpki
+	url = git@github.com:mesalock-linux/webpki.git
+	branch = mesalock_sgx
+[submodule "aho-corasick-sgx"]
+	path = aho-corasick-sgx
+	url = git@github.com:mesalock-linux/aho-corasick-sgx.git
+	branch = master
+[submodule "etcommon-rs-sgx"]
+	path = etcommon-rs-sgx
+	url = git@github.com:mesalock-linux/etcommon-rs-sgx.git
+	branch = master
+[submodule "inflate-sgx"]
+	path = inflate-sgx
+	url = git@github.com:mesalock-linux/inflate-sgx.git
+	branch = master
+[submodule "num-complex-sgx"]
+	path = num-complex-sgx
+	url = git@github.com:mesalock-linux/num-complex-sgx.git
+	branch = master
+[submodule "rust-crypto-sgx"]
+	path = rust-crypto-sgx
+	url = git@github.com:mesalock-linux/rust-crypto-sgx.git
+	branch = master
+[submodule "wabt-rs-sgx"]
+	path = wabt-rs-sgx
+	url = git@github.com:mesalock-linux/wabt-rs-sgx.git
+	branch = v0.6.0-core
+[submodule "take_mut-sgx"]
+	path = take_mut-sgx
+	url = git@github.com:mesalock-linux/take_mut-sgx.git
+	branch = master
+[submodule "num-iter-sgx"]
+	path = num-iter-sgx
+	url = git@github.com:mesalock-linux/num-iter-sgx.git
+	branch = master
+[submodule "color_quant-sgx"]
+	path = color_quant-sgx
+	url = git@github.com:mesalock-linux/color_quant-sgx.git
+	branch = master
+[submodule "rustcrypto-MACs-sgx"]
+	path = rustcrypto-MACs-sgx
+	url = git@github.com:mesalock-linux/rustcrypto-MACs-sgx.git
+	branch = master
+[submodule "quickcheck-sgx"]
+	path = quickcheck-sgx
+	url = git@github.com:mesalock-linux/quickcheck-sgx.git
+	branch = master
+[submodule "image-sgx"]
+	path = image-sgx
+	url = git@github.com:mesalock-linux/image-sgx.git
+	branch = master
+[submodule "byteorder-sgx"]
+	path = byteorder-sgx
+	url = git@github.com:mesalock-linux/byteorder-sgx.git
+	branch = master
+[submodule "utf8-ranges-sgx"]
+	path = utf8-ranges-sgx
+	url = git@github.com:mesalock-linux/utf8-ranges-sgx.git
+	branch = master
+[submodule "rle-decode-helper-sgx"]
+	path = rle-decode-helper-sgx
+	url = git@github.com:mesalock-linux/rle-decode-helper-sgx.git
+	branch = master
+[submodule "chrono-sgx"]
+	path = chrono-sgx
+	url = git@github.com:mesalock-linux/chrono-sgx.git
+	branch = master
+[submodule "rust-itertools-sgx"]
+	path = rust-itertools-sgx
+	url = git@github.com:mesalock-linux/rust-itertools-sgx.git
+	branch = master
+[submodule "jpeg-decoder-sgx"]
+	path = jpeg-decoder-sgx
+	url = git@github.com:mesalock-linux/jpeg-decoder-sgx.git
+	branch = master
+[submodule "rustc-serialize-sgx"]
+	path = rustc-serialize-sgx
+	url = git@github.com:mesalock-linux/rustc-serialize-sgx.git
+	branch = master
+[submodule "bincode-sgx"]
+	path = bincode-sgx
+	url = git@github.com:mesalock-linux/bincode-sgx.git
+	branch = master
+[submodule "num-bigint-dig-sgx"]
+	path = num-bigint-dig-sgx
+	url = git@github.com:mesalock-linux/num-bigint-sgx.git
+	branch = dig
