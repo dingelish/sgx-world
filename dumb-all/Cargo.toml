@@ -1,0 +1,166 @@
+[package]
+name = "dumb-all"
+version = "0.1.0"
+authors = ["Yu Ding <dingelish@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+adler32 = { git = "https://github.com/mesalock-linux/adler32-rs-sgx", branch = "master" }
+aho-corasick = { git = "https://github.com/mesalock-linux/aho-corasick-sgx", branch = "master" }
+array_tool = { git = "https://github.com/mesalock-linux/array_tool-sgx", branch = "master" }
+assert_matches = { git = "https://github.com/mesalock-linux/assert_matches-sgx", branch = "master" }
+base64 = { git = "https://github.com/mesalock-linux/rust-base64-sgx", branch = "master" }
+bincode = { git = "https://github.com/mesalock-linux/bincode-sgx", branch = "master" }
+byteorder = { git = "https://github.com/mesalock-linux/byteorder-sgx", branch = "master" }
+bytes = { git = "https://github.com/mesalock-linux/bytes-sgx", branch = "master" }
+chrono = { git = "https://github.com/mesalock-linux/chrono-sgx", branch = "master" }
+color_quant = { git = "https://github.com/mesalock-linux/color_quant-sgx", branch = "master" }
+crc32fast = { git = "https://github.com/mesalock-linux/rust-crc32fast-sgx", branch = "master" }
+deflate = { git = "https://github.com/mesalock-linux/deflate-rs-sgx", branch = "dev" }
+elastic-array = { git = "https://github.com/mesalock-linux/elastic-array-sgx", branch = "master" }
+encoding_rs = { git = "https://github.com/mesalock-linux/encoding_rs-sgx", branch = "master", features = ["simd-accel","fast-legacy-encode","serde"] }
+env_logger = { git = "https://github.com/mesalock-linux/env_logger-sgx", branch = "master" }
+erased-serde = { git = "https://github.com/mesalock-linux/erased-serde-sgx", branch = "master" }
+fnv = { git = "https://github.com/mesalock-linux/rust-fnv-sgx", branch = "master" }
+getrandom = { git = "https://github.com/mesalock-linux/getrandom-sgx", branch = "master", features = ["log"] }
+gif = { git = "https://github.com/mesalock-linux/image-gif-sgx", branch = "master" }
+gzip-header = { git = "https://github.com/mesalock-linux/gzip-header-sgx", branch = "master" }
+heapsize = { git = "https://github.com/mesalock-linux/heapsize-sgx", branch = "master" }
+hex = { git = "https://github.com/mesalock-linux/rust-hex-sgx", branch = "master" }
+hmac-drbg = { git = "https://github.com/mesalock-linux/hmac-drbg-rs-sgx", branch = "master" }
+http = { git = "https://github.com/mesalock-linux/http-sgx", branch = "master" }
+http_req = { git = "https://github.com/mesalock-linux/http_req-sgx", branch = "master" }
+humantime = { git = "https://github.com/mesalock-linux/humantime-sgx", branch = "master" }
+image = { git = "https://github.com/mesalock-linux/image-sgx", branch = "master" }
+indexmap = { git = "https://github.com/mesalock-linux/indexmap-sgx", branch = "master" }
+inflate = { git = "https://github.com/mesalock-linux/inflate-sgx", branch = "master" }
+inventory = { git = "https://github.com/mesalock-linux/inventory-sgx", branch = "master" }
+iovec = { git = "https://github.com/mesalock-linux/iovec-sgx", branch = "master" }
+itertools = { git = "https://github.com/mesalock-linux/rust-itertools-sgx", branch = "master" }
+itoa = { git = "https://github.com/mesalock-linux/itoa-sgx", branch = "master", features = ["i128"] }
+jpeg-decoder = { git = "https://github.com/mesalock-linux/jpeg-decoder-sgx", branch = "master" }
+libflate = { git = "https://github.com/mesalock-linux/libflate-sgx", branch = "master" }
+libsecp256k1 = { git = "https://github.com/mesalock-linux/libsecp256k1-rs-sgx", branch = "master" }
+linked-hash-map = { git = "https://github.com/mesalock-linux/linked-hash-map-sgx", branch = "master", features = ["serde_impl", "heapsize_impl"] }
+log = { git = "https://github.com/mesalock-linux/log-sgx", branch = "master", features = ["kv_unstable"] }
+lzw = { git = "https://github.com/mesalock-linux/lzw-sgx", branch = "master" }
+matrixmultiply = { git = "https://github.com/mesalock-linux/matrixmultiply-sgx", branch = "master" }
+md5 = { git = "https://github.com/mesalock-linux/md5-sgx", branch = "master" }
+memchr = { git = "https://github.com/mesalock-linux/rust-memchr-sgx", branch = "master" }
+mio = { git = "https://github.com/mesalock-linux/mio-sgx", branch = "v0.6.19_sgx1.0.8" }
+net2 = { git = "https://github.com/mesalock-linux/net2-rs-sgx", branch = "master" }
+num-bigint-dig = { git = "https://github.com/mesalock-linux/num-bigint-sgx", branch = "dig", features = ["rand", "i128", "u64_digit", "prime", "zeroize", "nightly", "serde"] }
+num-complex = { git = "https://github.com/mesalock-linux/num-complex-sgx", branch = "master", features = ["rand"] }
+num = { git = "https://github.com/mesalock-linux/num-sgx", branch = "master" }
+num-integer = { git = "https://github.com/mesalock-linux/num-integer-sgx", branch = "master", features = ["i128"] }
+num-iter = { git = "https://github.com/mesalock-linux/num-iter-sgx", branch = "master" }
+num-rational = { git = "https://github.com/mesalock-linux/num-rational-sgx", branch = "master" }
+num-traits = { git = "https://github.com/mesalock-linux/num-traits-sgx", branch = "master" }
+parity-wasm = { git = "https://github.com/mesalock-linux/parity-wasm-sgx", branch = "master" }
+png = { git = "https://github.com/mesalock-linux/image-png-sgx", branch = "master" }
+quickcheck = { git = "https://github.com/mesalock-linux/quickcheck-sgx", branch = "master" }
+quick-error = { git = "https://github.com/mesalock-linux/quick-error-sgx", branch = "master" }
+rand = { git = "https://github.com/mesalock-linux/rand-sgx", rev = "v0.6.5_sgx1.0.9", features = ["small_rng"] }
+regex = { git = "https://github.com/mesalock-linux/regex-sgx", branch = "master" }
+ring = { git = "https://github.com/mesalock-linux/ring-sgx", tag = "v0.16.5" }
+rle-decode-fast = { git = "https://github.com/mesalock-linux/rle-decode-helper-sgx", branch = "master" }
+rsa = { git = "https://github.com/mesalock-linux/rustcrypto-RSA-sgx", branch = "master", features = ["serde1", "expose-internals"] }
+rulinalg = { git = "https://github.com/mesalock-linux/rulinalg-sgx", branch = "master" }
+rust-base58 = { git = "https://github.com/mesalock-linux/rust-base58-sgx", branch = "master" }
+rust-crypto = { git = "https://github.com/mesalock-linux/rust-crypto-sgx", branch = "master" }
+rustc-serialize = { git = "https://github.com/mesalock-linux/rustc-serialize-sgx", branch = "master" }
+rustls = { git = "https://github.com/mesalock-linux/rustls", branch = "mesalock_sgx" }
+rusty-machine = { git = "https://github.com/mesalock-linux/rusty-machine-sgx", branch = "master", features = ["stats", "datasets"] }
+sct = { git = "https://github.com/mesalock-linux/sct.rs", branch = "mesalock_sgx" }
+serde-big-array = { git = "https://github.com/mesalock-linux/serde-big-array-sgx", branch = "master" }
+serde_bytes = { git = "https://github.com/mesalock-linux/serde-bytes-sgx", branch = "master" }
+serde_cbor = { git = "https://github.com/mesalock-linux/cbor-sgx", branch = "master" }
+serde_json = { git = "https://github.com/mesalock-linux/serde-json-sgx", branch = "master" }
+sha1 = { git = "https://github.com/mesalock-linux/rust-sha1-sgx", branch = "master", features = ["serde"] }
+slab = { git = "https://github.com/mesalock-linux/slab-sgx", branch = "master" }
+sputnikvm = { git = "https://github.com/mesalock-linux/sputnikvm-sgx", branch = "master" }
+subtle = { git = "https://github.com/mesalock-linux/subtle-sgx", branch = "master" }
+take_mut = { git = "https://github.com/mesalock-linux/take_mut-sgx", branch = "master" }
+termcolor = { git = "https://github.com/mesalock-linux/termcolor-sgx", branch = "master" }
+thread-id = { git = "https://github.com/mesalock-linux/thread-id-sgx", branch = "master" }
+thread_local = { git = "https://github.com/mesalock-linux/thread_local-rs-sgx", branch = "master" }
+threshold-secret-sharing = { git = "https://github.com/mesalock-linux/rust-threshold-secret-sharing-sgx", branch = "master" }
+tiff = { git = "https://github.com/mesalock-linux/image-tiff-sgx", branch = "master" }
+toml = { git = "https://github.com/mesalock-linux/toml-rs-sgx", branch = "master" }
+typetag = { git = "https://github.com/mesalock-linux/typetag-sgx", branch = "master" }
+ucd-util = { git = "https://github.com/mesalock-linux/ucd-generate-sgx", branch = "master" }
+unicase = { git = "https://github.com/mesalock-linux/unicase-sgx", branch = "master" }
+utf8-ranges = { git = "https://github.com/mesalock-linux/utf8-ranges-sgx", branch = "master" }
+wabt = { git = "https://github.com/mesalock-linux/wabt-rs-sgx", branch = "v0.6.0-core" }
+wasmi = { git = "https://github.com/mesalock-linux/wasmi-sgx", branch = "master" }
+webpki-roots = { git = "https://github.com/mesalock-linux/webpki-roots", branch = "mesalock_sgx" }
+yasna = { git = "https://github.com/mesalock-linux/yasna.rs-sgx", branch = "master", features = ["chrono", "bit-vec", "num-bigint"] }
+
+threefish-cipher = { git = "https://github.com/mesalock-linux/cryptocorrosion-sgx", branch = "master" }
+blake-hash = { git = "https://github.com/mesalock-linux/cryptocorrosion-sgx", branch = "master" }
+groestl-aesni = { git = "https://github.com/mesalock-linux/cryptocorrosion-sgx", branch = "master" }
+jh-x86_64 = { git = "https://github.com/mesalock-linux/cryptocorrosion-sgx", branch = "master" }
+skein-hash = { git = "https://github.com/mesalock-linux/cryptocorrosion-sgx", branch = "master" }
+c2-chacha = { git = "https://github.com/mesalock-linux/cryptocorrosion-sgx", branch = "master" }
+ppv-lite86 = { git = "https://github.com/mesalock-linux/cryptocorrosion-sgx", branch = "master" }
+etcommon-rlp = { git = "https://github.com/mesalock-linux/etcommon-rs-sgx", branch = "master" }
+etcommon-bigint = { git = "https://github.com/mesalock-linux/etcommon-rs-sgx", branch = "master" }
+etcommon-hexutil = { git = "https://github.com/mesalock-linux/etcommon-rs-sgx", branch = "master" }
+etcommon-block = { git = "https://github.com/mesalock-linux/etcommon-rs-sgx", branch = "master" }
+etcommon-block-core = { git = "https://github.com/mesalock-linux/etcommon-rs-sgx", branch = "master" }
+etcommon-trie = { git = "https://github.com/mesalock-linux/etcommon-rs-sgx", branch = "master" }
+etcommon-bloom = { git = "https://github.com/mesalock-linux/etcommon-rs-sgx", branch = "master" }
+whirlpool = { git = "https://github.com/mesalock-linux/hashes-sgx", branch = "master" }
+ripemd160 = { git = "https://github.com/mesalock-linux/hashes-sgx", branch = "master" }
+blake2 = { git = "https://github.com/mesalock-linux/hashes-sgx", branch = "master" }
+md2 = { git = "https://github.com/mesalock-linux/hashes-sgx", branch = "master" }
+gost94 = { git = "https://github.com/mesalock-linux/hashes-sgx", branch = "master" }
+md-5 = { git = "https://github.com/mesalock-linux/hashes-sgx", branch = "master" }
+groestl = { git = "https://github.com/mesalock-linux/hashes-sgx", branch = "master" }
+sha2 = { git = "https://github.com/mesalock-linux/hashes-sgx", branch = "master" }
+md4 = { git = "https://github.com/mesalock-linux/hashes-sgx", branch = "master" }
+sha-1 = { git = "https://github.com/mesalock-linux/hashes-sgx", branch = "master" }
+streebog = { git = "https://github.com/mesalock-linux/hashes-sgx", branch = "master" }
+sha3 = { git = "https://github.com/mesalock-linux/hashes-sgx", branch = "master" }
+ripemd320 = { git = "https://github.com/mesalock-linux/hashes-sgx", branch = "master" }
+kvdb-memorydb = { git = "https://github.com/mesalock-linux/parity-common-sgx", branch = "master" }
+kvdb = { git = "https://github.com/mesalock-linux/parity-common-sgx", branch = "master" }
+aes = { git = "https://github.com/mesalock-linux/rustcrypto-block-ciphers-sgx", branch = "master" }
+aesni = { git = "https://github.com/mesalock-linux/rustcrypto-block-ciphers-sgx", branch = "master", features = ["ctr"] }
+aes-soft = { git = "https://github.com/mesalock-linux/rustcrypto-block-ciphers-sgx", branch = "master" }
+block-modes = { git = "https://github.com/mesalock-linux/rustcrypto-block-ciphers-sgx", branch = "master" }
+blowfish = { git = "https://github.com/mesalock-linux/rustcrypto-block-ciphers-sgx", branch = "master" }
+cast5 = { git = "https://github.com/mesalock-linux/rustcrypto-block-ciphers-sgx", branch = "master" }
+des = { git = "https://github.com/mesalock-linux/rustcrypto-block-ciphers-sgx", branch = "master" }
+kuznyechik = { git = "https://github.com/mesalock-linux/rustcrypto-block-ciphers-sgx", branch = "master" }
+magma = { git = "https://github.com/mesalock-linux/rustcrypto-block-ciphers-sgx", branch = "master" }
+rc2 = { git = "https://github.com/mesalock-linux/rustcrypto-block-ciphers-sgx", branch = "master" }
+twofish = { git = "https://github.com/mesalock-linux/rustcrypto-block-ciphers-sgx", branch = "master" }
+cmac = { git = "https://github.com/mesalock-linux/rustcrypto-MACs-sgx", branch = "master" }
+daa = { git = "https://github.com/mesalock-linux/rustcrypto-MACs-sgx", branch = "master" }
+hmac = { git = "https://github.com/mesalock-linux/rustcrypto-MACs-sgx", branch = "master" }
+aes-ctr = { git = "https://github.com/mesalock-linux/rustcrypto-stream-ciphers-sgx", branch = "master" }
+cfb8 = { git = "https://github.com/mesalock-linux/rustcrypto-stream-ciphers-sgx", branch = "master" }
+cfb-mode = { git = "https://github.com/mesalock-linux/rustcrypto-stream-ciphers-sgx", branch = "master" }
+chacha20 = { git = "https://github.com/mesalock-linux/rustcrypto-stream-ciphers-sgx", branch = "master", features = ["xchacha20", "legacy"] }
+ctr = { git = "https://github.com/mesalock-linux/rustcrypto-stream-ciphers-sgx", branch = "master" }
+ofb = { git = "https://github.com/mesalock-linux/rustcrypto-stream-ciphers-sgx", branch = "master" }
+salsa20 = { git = "https://github.com/mesalock-linux/rustcrypto-stream-ciphers-sgx", branch = "master" }
+salsa20-core = { git = "https://github.com/mesalock-linux/rustcrypto-stream-ciphers-sgx", branch = "master" }
+aead = { git = "https://github.com/mesalock-linux/rustcrypto-traits-sgx", branch = "master" }
+block-cipher-trait = { git = "https://github.com/mesalock-linux/rustcrypto-traits-sgx", branch = "master", features = ["dev"] }
+crypto-mac = { git = "https://github.com/mesalock-linux/rustcrypto-traits-sgx", branch = "master", features = ["dev"] }
+digest = { git = "https://github.com/mesalock-linux/rustcrypto-traits-sgx", branch = "master", features = ["dev"] }
+stream-cipher = { git = "https://github.com/mesalock-linux/rustcrypto-traits-sgx", branch = "master", features = ["dev"] }
+universal-hash = { git = "https://github.com/mesalock-linux/rustcrypto-traits-sgx", branch = "master" }
+protobuf = { git = "https://github.com/mesalock-linux/rust-protobuf-sgx", branch = "v2.8" }
+serde = { git = "https://github.com/mesalock-linux/serde-sgx", branch = "master", features = ["derive", "rc"] }
+serde_derive = { git = "https://github.com/mesalock-linux/serde-sgx", branch = "master" }
+blobby = { git = "https://github.com/mesalock-linux/utils-sgx", branch = "master" }
+block-buffer = { git = "https://github.com/mesalock-linux/utils-sgx", branch = "master" }
+block-padding = { git = "https://github.com/mesalock-linux/utils-sgx", branch = "master" }
+hex-literal = { git = "https://github.com/mesalock-linux/utils-sgx", branch = "master" }
+uuid = { git = "https://github.com/mesalock-linux/uuid-sgx", branch = "master", features = ["serde", "v1", "v3", "v4", "v5"] }
+webpki = { git = "https://github.com/mesalock-linux/webpki", branch = "mesalock_sgx" }

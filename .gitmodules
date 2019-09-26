@@ -78,10 +78,6 @@
 	path = hmac-drbg-rs-sgx
 	url = git@github.com:mesalock-linux/hmac-drbg-rs-sgx.git
 	branch = master
-[submodule "libbacktrace-sgx"]
-	path = libbacktrace-sgx
-	url = git@github.com:mesalock-linux/libbacktrace-sgx.git
-	branch = master
 [submodule "image-gif-sgx"]
 	path = image-gif-sgx
 	url = git@github.com:mesalock-linux/image-gif-sgx.git
@@ -169,10 +165,6 @@
 [submodule "encoding_rs-sgx"]
 	path = encoding_rs-sgx
 	url = git@github.com:mesalock-linux/encoding_rs-sgx.git
-	branch = master
-[submodule "libc-sgx"]
-	path = libc-sgx
-	url = git@github.com:mesalock-linux/libc-sgx.git
 	branch = master
 [submodule "lzw-sgx"]
 	path = lzw-sgx
