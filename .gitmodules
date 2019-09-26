@@ -406,3 +406,7 @@
 	path = rust_rdrand-sgx
 	url = git@github.com:mesalock-linux/rust_rdrand-sgx
 	branch = master
+[submodule "rustcrypto-utils-sgx"]
+	path = rustcrypto-utils-sgx
+	url = git@github.com:mesalock-linux/rustcrypto-utils-sgx.git
+	branch = master

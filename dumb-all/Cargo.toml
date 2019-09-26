@@ -63,6 +63,7 @@ png = { git = "https://github.com/mesalock-linux/image-png-sgx", branch = "maste
 quickcheck = { git = "https://github.com/mesalock-linux/quickcheck-sgx", branch = "master" }
 quick-error = { git = "https://github.com/mesalock-linux/quick-error-sgx", branch = "master" }
 rand = { git = "https://github.com/mesalock-linux/rand-sgx", rev = "v0.6.5_sgx1.0.9", features = ["small_rng"] }
+rdrand = { git = "https://github.com/mesalock-linux/rust_rdrand-sgx", branch = "master" }
 regex = { git = "https://github.com/mesalock-linux/regex-sgx", branch = "master" }
 ring = { git = "https://github.com/mesalock-linux/ring-sgx", tag = "v0.16.5" }
 rle-decode-fast = { git = "https://github.com/mesalock-linux/rle-decode-helper-sgx", branch = "master" }
@@ -158,9 +159,9 @@ universal-hash = { git = "https://github.com/mesalock-linux/rustcrypto-traits-sg
 protobuf = { git = "https://github.com/mesalock-linux/rust-protobuf-sgx", branch = "v2.8" }
 serde = { git = "https://github.com/mesalock-linux/serde-sgx", branch = "master", features = ["derive", "rc"] }
 serde_derive = { git = "https://github.com/mesalock-linux/serde-sgx", branch = "master" }
-blobby = { git = "https://github.com/mesalock-linux/utils-sgx", branch = "master" }
-block-buffer = { git = "https://github.com/mesalock-linux/utils-sgx", branch = "master" }
-block-padding = { git = "https://github.com/mesalock-linux/utils-sgx", branch = "master" }
-hex-literal = { git = "https://github.com/mesalock-linux/utils-sgx", branch = "master" }
+blobby = { git = "https://github.com/mesalock-linux/rustcrypto-utils-sgx", branch = "master" }
+block-buffer = { git = "https://github.com/mesalock-linux/rustcrypto-utils-sgx", branch = "master" }
+block-padding = { git = "https://github.com/mesalock-linux/rustcrypto-utils-sgx", branch = "master" }
+hex-literal = { git = "https://github.com/mesalock-linux/rustcrypto-utils-sgx", branch = "master" }
 uuid = { git = "https://github.com/mesalock-linux/uuid-sgx", branch = "master", features = ["serde", "v1", "v3", "v4", "v5"] }
 webpki = { git = "https://github.com/mesalock-linux/webpki", branch = "mesalock_sgx" }
