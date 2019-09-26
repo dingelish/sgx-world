@@ -94,7 +94,7 @@ typetag = { git = "https://github.com/mesalock-linux/typetag-sgx", branch = "mas
 ucd-util = { git = "https://github.com/mesalock-linux/ucd-generate-sgx", branch = "master" }
 unicase = { git = "https://github.com/mesalock-linux/unicase-sgx", branch = "master" }
 utf8-ranges = { git = "https://github.com/mesalock-linux/utf8-ranges-sgx", branch = "master" }
-wabt = { git = "https://github.com/mesalock-linux/wabt-rs-sgx", branch = "v0.6.0-core" }
+wabt = { git = "https://github.com/mesalock-linux/wabt-rs-sgx", branch = "v0.9-core" }
 wasmi = { git = "https://github.com/mesalock-linux/wasmi-sgx", branch = "master" }
 webpki-roots = { git = "https://github.com/mesalock-linux/webpki-roots", branch = "mesalock_sgx" }
 yasna = { git = "https://github.com/mesalock-linux/yasna.rs-sgx", branch = "master", features = ["chrono", "bit-vec", "num-bigint"] }
