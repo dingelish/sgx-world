@@ -6,10 +6,6 @@
 	path = rand-sgx
 	url = git@github.com:mesalock-linux/rand-sgx.git
 	branch = master
-[submodule "utils-sgx"]
-	path = utils-sgx
-	url = git@github.com:mesalock-linux/utils-sgx.git
-	branch = master
 [submodule "quick-error-sgx"]
 	path = quick-error-sgx
 	url = git@github.com:mesalock-linux/quick-error-sgx.git
@@ -406,3 +402,7 @@
 	path = num-bigint-dig-sgx
 	url = git@github.com:mesalock-linux/num-bigint-sgx.git
 	branch = dig
+[submodule "rust_rdrand-sgx"]
+	path = rust_rdrand-sgx
+	url = git@github.com:mesalock-linux/rust_rdrand-sgx
+	branch = master
