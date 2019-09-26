@@ -105,7 +105,7 @@ repo: mesalock-linux/unicase-sgx, branch: master
 repo: mesalock-linux/utf8-ranges-sgx, branch: master
 repo: mesalock-linux/utils-sgx, branch: master
 repo: mesalock-linux/uuid-sgx, branch: master
-repo: mesalock-linux/wabt-rs-sgx, branch: v0.6.0-core
+repo: mesalock-linux/wabt-rs-sgx, branch: v0.9-core
 repo: mesalock-linux/wasmi-sgx, branch: master
 repo: mesalock-linux/webpki, branch: mesalock_sgx
 repo: mesalock-linux/webpki-roots, branch: mesalock_sgx
