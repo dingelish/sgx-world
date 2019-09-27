@@ -410,3 +410,6 @@
 	path = rustcrypto-utils-sgx
 	url = git@github.com:mesalock-linux/rustcrypto-utils-sgx.git
 	branch = master
+[submodule "rust-snappy-sgx"]
+	path = rust-snappy-sgx
+	url = git@github.com:mesalock-linux/rust-snappy-sgx.git

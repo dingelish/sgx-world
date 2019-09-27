@@ -81,6 +81,7 @@ serde_cbor = { git = "https://github.com/mesalock-linux/cbor-sgx", branch = "mas
 serde_json = { git = "https://github.com/mesalock-linux/serde-json-sgx", branch = "master" }
 sha1 = { git = "https://github.com/mesalock-linux/rust-sha1-sgx", branch = "master", features = ["serde"] }
 slab = { git = "https://github.com/mesalock-linux/slab-sgx", branch = "master" }
+snap = { git = "https://github.com/mesalock-linux/rust-snappy-sgx", branch = "master" }
 sputnikvm = { git = "https://github.com/mesalock-linux/sputnikvm-sgx", branch = "master" }
 subtle = { git = "https://github.com/mesalock-linux/subtle-sgx", branch = "master" }
 take_mut = { git = "https://github.com/mesalock-linux/take_mut-sgx", branch = "master" }
