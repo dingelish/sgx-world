@@ -36,6 +36,7 @@ humantime = { git = "https://github.com/mesalock-linux/humantime-sgx", branch = 
 image = { git = "https://github.com/mesalock-linux/image-sgx", branch = "master" }
 indexmap = { git = "https://github.com/mesalock-linux/indexmap-sgx", branch = "master" }
 inflate = { git = "https://github.com/mesalock-linux/inflate-sgx", branch = "master" }
+integer-encoding = { git = "https://github.com/mesalock-linux/integer-encoding-rs-sgx", branch = "master" }
 inventory = { git = "https://github.com/mesalock-linux/inventory-sgx", branch = "master" }
 iovec = { git = "https://github.com/mesalock-linux/iovec-sgx", branch = "master" }
 itertools = { git = "https://github.com/mesalock-linux/rust-itertools-sgx", branch = "master" }

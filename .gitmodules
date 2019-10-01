@@ -413,3 +413,6 @@
 [submodule "rust-snappy-sgx"]
 	path = rust-snappy-sgx
 	url = git@github.com:mesalock-linux/rust-snappy-sgx.git
+[submodule "integer-encoding-rs-sgx"]
+	path = integer-encoding-rs-sgx
+	url = git@github.com:mesalock-linux/integer-encoding-rs-sgx.git
