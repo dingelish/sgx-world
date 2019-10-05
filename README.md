@@ -1,4 +1,7 @@
 # sgx-world
+
+[![Build Status](https://ci.mesalock-linux.org/api/badges/dingelish/sgx-world/status.svg)](https://ci.mesalock-linux.org/dingelish/sgx-world)
+
 The world of forked crates
 
 ## Forked repo
