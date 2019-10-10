@@ -24,7 +24,7 @@ encoding_rs = { git = "https://github.com/mesalock-linux/encoding_rs-sgx", branc
 env_logger = { git = "https://github.com/mesalock-linux/env_logger-sgx", branch = "master" }
 erased-serde = { git = "https://github.com/mesalock-linux/erased-serde-sgx", branch = "master" }
 fnv = { git = "https://github.com/mesalock-linux/rust-fnv-sgx", branch = "master" }
-getrandom = { git = "https://github.com/mesalock-linux/getrandom-sgx", branch = "master", features = ["log"] }
+getrandom = { git = "https://github.com/mesalock-linux/getrandom-sgx", branch = "master" }
 gif = { git = "https://github.com/mesalock-linux/image-gif-sgx", branch = "master" }
 gzip-header = { git = "https://github.com/mesalock-linux/gzip-header-sgx", branch = "master" }
 heapsize = { git = "https://github.com/mesalock-linux/heapsize-sgx", branch = "master" }
