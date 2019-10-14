@@ -412,3 +412,6 @@
 [submodule "integer-encoding-rs-sgx"]
 	path = integer-encoding-rs-sgx
 	url = git@github.com:mesalock-linux/integer-encoding-rs-sgx.git
+[submodule "libsecp256k1-rs-sgx"]
+	path = libsecp256k1-rs-sgx
+	url = https://github.com/mesalock-linux/libsecp256k1-rs-sgx.git
