@@ -278,10 +278,6 @@
 	path = num-bigint-sgx
 	url = git@github.com:mesalock-linux/num-bigint-sgx.git
 	branch = master
-[submodule "libsecp256k1-rs-sgx"]
-	path = libsecp256k1-rs-sgx
-	url = git@github.com:mesalock-linux/libsecp256k1-rs-sgx.git
-	branch = master
 [submodule "humantime-sgx"]
 	path = humantime-sgx
 	url = git@github.com:mesalock-linux/humantime-sgx.git
