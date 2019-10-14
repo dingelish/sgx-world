@@ -1,4 +1,16 @@
 kind: pipeline
+name: audit
+
+steps:
+- name: audit
+  image: baiduxlab/sgx-rust:1604-1.0.9
+  commands:
+  - . /opt/sgxsdk/environment
+  - . /root/.cargo/env
+  - cd dumb-all && cargo audit --ignore RUSTSEC-2016-0005
+
+---
+kind: pipeline
 name: world-xargo-1604-release
 
 steps:
