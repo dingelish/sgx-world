@@ -418,3 +418,6 @@
 [submodule "bitvec-sgx"]
 	path = bitvec-sgx
 	url = https://github.com/mesalock-linux/bitvec-sgx
+[submodule "byte-slice-cast-sgx"]
+	path = byte-slice-cast-sgx
+	url = https://github.com/mesalock-linux/byte-slice-cast-sgx

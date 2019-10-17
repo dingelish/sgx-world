@@ -14,6 +14,7 @@ assert_matches = { git = "https://github.com/mesalock-linux/assert_matches-sgx",
 base64 = { git = "https://github.com/mesalock-linux/rust-base64-sgx", branch = "master" }
 bincode = { git = "https://github.com/mesalock-linux/bincode-sgx", branch = "master" }
 bitvec = { git = "https://github.com/mesalock-linux/bitvec-sgx", branch = "master", features = ["serde"] }
+byte-slice-cast = { git = "https://github.com/mesalock-linux/byte-slice-cast-sgx", branch = "master" }
 byteorder = { git = "https://github.com/mesalock-linux/byteorder-sgx", branch = "master" }
 bytes = { git = "https://github.com/mesalock-linux/bytes-sgx", branch = "master" }
 chrono = { git = "https://github.com/mesalock-linux/chrono-sgx", branch = "master" }
