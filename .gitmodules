@@ -415,3 +415,6 @@
 [submodule "libsecp256k1-rs-sgx"]
 	path = libsecp256k1-rs-sgx
 	url = https://github.com/mesalock-linux/libsecp256k1-rs-sgx.git
+[submodule "bitvec-sgx"]
+	path = bitvec-sgx
+	url = https://github.com/mesalock-linux/bitvec-sgx
