@@ -13,7 +13,7 @@ array_tool = { git = "https://github.com/mesalock-linux/array_tool-sgx", branch 
 assert_matches = { git = "https://github.com/mesalock-linux/assert_matches-sgx", branch = "master" }
 base64 = { git = "https://github.com/mesalock-linux/rust-base64-sgx", branch = "master" }
 bincode = { git = "https://github.com/mesalock-linux/bincode-sgx", branch = "master" }
-bitvec = { git = "https://github.com/mesalock-linux/bitvec-sgx", branch = "master" }
+bitvec = { git = "https://github.com/mesalock-linux/bitvec-sgx", branch = "master", features = ["serde"] }
 byteorder = { git = "https://github.com/mesalock-linux/byteorder-sgx", branch = "master" }
 bytes = { git = "https://github.com/mesalock-linux/bytes-sgx", branch = "master" }
 chrono = { git = "https://github.com/mesalock-linux/chrono-sgx", branch = "master" }
