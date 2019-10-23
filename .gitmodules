@@ -417,3 +417,7 @@
 [submodule "byte-slice-cast-sgx"]
 	path = byte-slice-cast-sgx
 	url = https://github.com/mesalock-linux/byte-slice-cast-sgx
+[submodule "rustcrypto-hashes-sgx"]
+	path = rustcrypto-hashes-sgx
+	url = https://github.com/mesalock-linux/rustcrypto-hashes-sgx
+	branch = master
