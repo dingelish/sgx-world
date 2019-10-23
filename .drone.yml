@@ -1,16 +1,4 @@
 kind: pipeline
-name: check-update 
-
-steps:
-- name: check-update
-  image: baiduxlab/sgx-rust:1604-1.0.9
-  commands:
-  - . /opt/sgxsdk/environment
-  - . /root/.cargo/env
-  - bash ./check-all.sh
-
----
-kind: pipeline
 name: audit
 
 steps:
