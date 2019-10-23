@@ -62,10 +62,6 @@
 	path = matrixmultiply-sgx
 	url = git@github.com:mesalock-linux/matrixmultiply-sgx.git
 	branch = master
-[submodule "hashes-sgx"]
-	path = hashes-sgx
-	url = git@github.com:mesalock-linux/hashes-sgx.git
-	branch = master
 [submodule "cbor-sgx"]
 	path = cbor-sgx
 	url = git@github.com:mesalock-linux/cbor-sgx.git
