@@ -421,3 +421,6 @@
 	path = rustcrypto-hashes-sgx
 	url = https://github.com/mesalock-linux/rustcrypto-hashes-sgx
 	branch = master
+[submodule "parity-scale-codec-sgx"]
+	path = parity-scale-codec-sgx
+	url = https://github.com/mesalock-linux/parity-scale-codec-sgx.git

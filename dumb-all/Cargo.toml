@@ -62,6 +62,8 @@ num-iter = { git = "https://github.com/mesalock-linux/num-iter-sgx", branch = "m
 num-rational = { git = "https://github.com/mesalock-linux/num-rational-sgx", branch = "master" }
 num-traits = { git = "https://github.com/mesalock-linux/num-traits-sgx", branch = "master" }
 parity-wasm = { git = "https://github.com/mesalock-linux/parity-wasm-sgx", branch = "master" }
+parity-scale-codec = { git = "https://github.com/mesalock-linux/parity-scale-codec-sgx", branch = "master" }
+parity-scale-codec-derive = { git = "https://github.com/mesalock-linux/parity-scale-codec-sgx", branch = "master" }
 png = { git = "https://github.com/mesalock-linux/image-png-sgx", branch = "master" }
 quickcheck = { git = "https://github.com/mesalock-linux/quickcheck-sgx", branch = "master" }
 quick-error = { git = "https://github.com/mesalock-linux/quick-error-sgx", branch = "master" }
