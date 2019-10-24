@@ -77,7 +77,7 @@ rulinalg = { git = "https://github.com/mesalock-linux/rulinalg-sgx", branch = "m
 rust-base58 = { git = "https://github.com/mesalock-linux/rust-base58-sgx", branch = "master" }
 rust-crypto = { git = "https://github.com/mesalock-linux/rust-crypto-sgx", branch = "master" }
 rustc-serialize = { git = "https://github.com/mesalock-linux/rustc-serialize-sgx", branch = "master" }
-rustls = { git = "https://github.com/mesalock-linux/rustls", branch = "mesalock_sgx" }
+rustls = { git = "https://github.com/mesalock-linux/rustls", branch = "mesalock_sgx", features = ["dangerous_configuration", "logging", "quic"] }
 rusty-machine = { git = "https://github.com/mesalock-linux/rusty-machine-sgx", branch = "master", features = ["stats", "datasets"] }
 sct = { git = "https://github.com/mesalock-linux/sct.rs", branch = "mesalock_sgx" }
 serde-big-array = { git = "https://github.com/mesalock-linux/serde-big-array-sgx", branch = "master" }
