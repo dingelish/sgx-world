@@ -2,7 +2,7 @@
 
 set -e
 
-submodules=`ls -d */ | xargs`
+submodules=`find . -maxdepth 1 -not -path '*/\.*' -not -path '.' -type d | xargs`
 
 for DD in ${submodules[@]}; do
     cd ${DD} && \
