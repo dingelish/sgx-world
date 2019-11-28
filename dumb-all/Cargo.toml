@@ -53,6 +53,7 @@ matrixmultiply = { git = "https://github.com/mesalock-linux/matrixmultiply-sgx",
 md5 = { git = "https://github.com/mesalock-linux/md5-sgx", branch = "master" }
 memchr = { git = "https://github.com/mesalock-linux/rust-memchr-sgx", branch = "master" }
 mio = { git = "https://github.com/mesalock-linux/mio-sgx", branch = "v0.6.19_sgx1.0.8" }
+ndarray = { git = "https://github.com/mesalock-linux/ndarray-sgx", branch = "master" }
 net2 = { git = "https://github.com/mesalock-linux/net2-rs-sgx", branch = "master" }
 num-bigint-dig = { git = "https://github.com/mesalock-linux/num-bigint-sgx", branch = "dig", features = ["rand", "i128", "u64_digit", "prime", "zeroize", "nightly", "serde"] }
 num-complex = { git = "https://github.com/mesalock-linux/num-complex-sgx", branch = "master", features = ["rand"] }

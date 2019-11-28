@@ -424,3 +424,6 @@
 [submodule "parity-scale-codec-sgx"]
 	path = parity-scale-codec-sgx
 	url = https://github.com/mesalock-linux/parity-scale-codec-sgx.git
+[submodule "ndarray-sgx"]
+	path = ndarray-sgx
+	url = https://github.com/mesalock-linux/ndarray-sgx
