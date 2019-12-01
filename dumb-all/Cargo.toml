@@ -50,6 +50,7 @@ linked-hash-map = { git = "https://github.com/mesalock-linux/linked-hash-map-sgx
 log = { git = "https://github.com/mesalock-linux/log-sgx", branch = "master", features = ["kv_unstable"] }
 lzw = { git = "https://github.com/mesalock-linux/lzw-sgx", branch = "master" }
 matrixmultiply = { git = "https://github.com/mesalock-linux/matrixmultiply-sgx", branch = "master" }
+miniz_oxide = { git = "https://github.com/mesalock-linux/miniz_oxide-sgx", branch = "master" }
 md5 = { git = "https://github.com/mesalock-linux/md5-sgx", branch = "master" }
 memchr = { git = "https://github.com/mesalock-linux/rust-memchr-sgx", branch = "master" }
 mio = { git = "https://github.com/mesalock-linux/mio-sgx", branch = "v0.6.19_sgx1.0.8" }

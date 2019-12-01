@@ -427,3 +427,6 @@
 [submodule "ndarray-sgx"]
 	path = ndarray-sgx
 	url = https://github.com/mesalock-linux/ndarray-sgx
+[submodule "miniz_oxide-sgx"]
+	path = miniz_oxide-sgx
+	url = git@github.com:mesalock-linux/miniz_oxide-sgx.git
