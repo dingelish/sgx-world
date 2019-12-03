@@ -430,3 +430,6 @@
 [submodule "miniz_oxide-sgx"]
 	path = miniz_oxide-sgx
 	url = git@github.com:mesalock-linux/miniz_oxide-sgx.git
+[submodule "failure-sgx"]
+	path = failure-sgx
+	url = git@github.com:mesalock-linux/failure-sgx.git

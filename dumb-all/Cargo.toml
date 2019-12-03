@@ -25,6 +25,7 @@ elastic-array = { git = "https://github.com/mesalock-linux/elastic-array-sgx", b
 encoding_rs = { git = "https://github.com/mesalock-linux/encoding_rs-sgx", branch = "master", features = ["simd-accel","fast-legacy-encode","serde"] }
 env_logger = { git = "https://github.com/mesalock-linux/env_logger-sgx", branch = "master" }
 erased-serde = { git = "https://github.com/mesalock-linux/erased-serde-sgx", branch = "master" }
+failure = { git = "https://github.com/mesalock-linux/failure-sgx", branch = "master" }
 fnv = { git = "https://github.com/mesalock-linux/rust-fnv-sgx", branch = "master" }
 getrandom = { git = "https://github.com/mesalock-linux/getrandom-sgx", branch = "master" }
 gif = { git = "https://github.com/mesalock-linux/image-gif-sgx", branch = "master" }
