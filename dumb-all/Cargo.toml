@@ -68,6 +68,7 @@ parity-wasm = { git = "https://github.com/mesalock-linux/parity-wasm-sgx", branc
 parity-scale-codec = { git = "https://github.com/mesalock-linux/parity-scale-codec-sgx", branch = "master" }
 parity-scale-codec-derive = { git = "https://github.com/mesalock-linux/parity-scale-codec-sgx", branch = "master" }
 png = { git = "https://github.com/mesalock-linux/image-png-sgx", branch = "master" }
+protected_fs_rs = { git = "https://github.com/mesalock-linux/protected_fs_rs", branch = "master" }
 quickcheck = { git = "https://github.com/mesalock-linux/quickcheck-sgx", branch = "master" }
 quick-error = { git = "https://github.com/mesalock-linux/quick-error-sgx", branch = "master" }
 rand = { git = "https://github.com/mesalock-linux/rand-sgx", tag = "v0.6.5_sgx1.0.9", features = ["small_rng"] }
@@ -81,6 +82,7 @@ rust-base58 = { git = "https://github.com/mesalock-linux/rust-base58-sgx", branc
 rust-crypto = { git = "https://github.com/mesalock-linux/rust-crypto-sgx", branch = "master" }
 rustc-serialize = { git = "https://github.com/mesalock-linux/rustc-serialize-sgx", branch = "master" }
 rustls = { git = "https://github.com/mesalock-linux/rustls", branch = "mesalock_sgx", features = ["dangerous_configuration", "logging", "quic"] }
+rusty-leveldb = { git = "https://github.com/mesalock-linux/rusty_leveldb_sgx", branch = "master" }
 rusty-machine = { git = "https://github.com/mesalock-linux/rusty-machine-sgx", branch = "master", features = ["stats", "datasets"] }
 sct = { git = "https://github.com/mesalock-linux/sct.rs", branch = "mesalock_sgx" }
 serde-big-array = { git = "https://github.com/mesalock-linux/serde-big-array-sgx", branch = "master" }

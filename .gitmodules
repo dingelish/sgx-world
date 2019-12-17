@@ -433,3 +433,9 @@
 [submodule "failure-sgx"]
 	path = failure-sgx
 	url = git@github.com:mesalock-linux/failure-sgx.git
+[submodule "protected_fs_rs"]
+	path = protected_fs_rs
+	url = git@github.com:mesalock-linux/protected_fs_rs.git
+[submodule "rusty_leveldb_sgx"]
+	path = rusty_leveldb_sgx
+	url = git@github.com:mesalock-linux/rusty_leveldb_sgx.git
