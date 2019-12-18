@@ -3,7 +3,7 @@ name: audit
 
 steps:
 - name: audit
-  image: baiduxlab/sgx-rust:1604-1.0.9
+  image: baiduxlab/sgx-rust:1604-1.1.0
   commands:
   - . /opt/sgxsdk/environment
   - . /root/.cargo/env
@@ -17,7 +17,7 @@ name: world-xargo-1604-release
 
 steps:
 - name: release-compile
-  image: baiduxlab/sgx-rust:1604-1.0.9
+  image: baiduxlab/sgx-rust:1604-1.1.0
   commands:
   - . /opt/sgxsdk/environment
   - . /root/.cargo/env
@@ -30,7 +30,7 @@ name: world-xargo-1604-debug
 
 steps:
 - name: debug-compile
-  image: baiduxlab/sgx-rust:1604-1.0.9
+  image: baiduxlab/sgx-rust:1604-1.1.0
   commands:
   - . /opt/sgxsdk/environment
   - . /root/.cargo/env
@@ -43,7 +43,7 @@ name: world-xargo-1804-release
 
 steps:
 - name: release-compile
-  image: baiduxlab/sgx-rust:1804-1.0.9
+  image: baiduxlab/sgx-rust:1804-1.1.0
   commands:
   - . /opt/sgxsdk/environment
   - . /root/.cargo/env
@@ -56,7 +56,7 @@ name: world-xargo-1804-debug
 
 steps:
 - name: debug-compile
-  image: baiduxlab/sgx-rust:1804-1.0.9
+  image: baiduxlab/sgx-rust:1804-1.1.0
   commands:
   - . /opt/sgxsdk/environment
   - . /root/.cargo/env
@@ -69,7 +69,7 @@ name: world-1604-release
 
 steps:
 - name: release-compile
-  image: baiduxlab/sgx-rust:1604-1.0.9
+  image: baiduxlab/sgx-rust:1604-1.1.0
   commands:
   - . /opt/sgxsdk/environment
   - . /root/.cargo/env
@@ -82,7 +82,7 @@ name: world-1604-hw-debug
 
 steps:
 - name: debug-compile
-  image: baiduxlab/sgx-rust:1604-1.0.9
+  image: baiduxlab/sgx-rust:1604-1.1.0
   commands:
   - . /opt/sgxsdk/environment
   - . /root/.cargo/env
@@ -95,7 +95,7 @@ name: world-1804-release
 
 steps:
 - name: release-compile
-  image: baiduxlab/sgx-rust:1804-1.0.9
+  image: baiduxlab/sgx-rust:1804-1.1.0
   commands:
   - . /opt/sgxsdk/environment
   - . /root/.cargo/env
@@ -108,7 +108,7 @@ name: world-1804-debug
 
 steps:
 - name: debug-compile
-  image: baiduxlab/sgx-rust:1804-1.0.9
+  image: baiduxlab/sgx-rust:1804-1.1.0
   commands:
   - . /opt/sgxsdk/environment
   - . /root/.cargo/env
