@@ -68,10 +68,10 @@ parity-wasm = { git = "https://github.com/mesalock-linux/parity-wasm-sgx", branc
 parity-scale-codec = { git = "https://github.com/mesalock-linux/parity-scale-codec-sgx", branch = "master" }
 parity-scale-codec-derive = { git = "https://github.com/mesalock-linux/parity-scale-codec-sgx", branch = "master" }
 png = { git = "https://github.com/mesalock-linux/image-png-sgx", branch = "master" }
-protected_fs_rs = { git = "https://github.com/mesalock-linux/protected_fs_rs", branch = "master" }
+protected_fs_rs = { git = "https://github.com/mesalock-linux/protected_fs_rs", branch = "master", features = ["mesalock_sgx"] }
 quickcheck = { git = "https://github.com/mesalock-linux/quickcheck-sgx", branch = "master" }
 quick-error = { git = "https://github.com/mesalock-linux/quick-error-sgx", branch = "master" }
-rand = { git = "https://github.com/mesalock-linux/rand-sgx", tag = "v0.6.5_sgx1.0.9", features = ["small_rng"] }
+rand = { git = "https://github.com/mesalock-linux/rand-sgx", tag = "v0.6.5_sgx1.1.0", features = ["small_rng"] }
 rdrand = { git = "https://github.com/mesalock-linux/rust_rdrand-sgx", branch = "master" }
 regex = { git = "https://github.com/mesalock-linux/regex-sgx", branch = "master" }
 ring = { git = "https://github.com/mesalock-linux/ring-sgx", tag = "v0.16.5" }
