@@ -410,23 +410,23 @@
 	url = git@github.com:mesalock-linux/integer-encoding-rs-sgx.git
 [submodule "libsecp256k1-rs-sgx"]
 	path = libsecp256k1-rs-sgx
-	url = https://github.com/mesalock-linux/libsecp256k1-rs-sgx.git
+	url = git@github.com:mesalock-linux/libsecp256k1-rs-sgx.git
 [submodule "bitvec-sgx"]
 	path = bitvec-sgx
-	url = https://github.com/mesalock-linux/bitvec-sgx
+	url = git@github.com:mesalock-linux/bitvec-sgx.git
 [submodule "byte-slice-cast-sgx"]
 	path = byte-slice-cast-sgx
-	url = https://github.com/mesalock-linux/byte-slice-cast-sgx
+	url = git@github.com:mesalock-linux/byte-slice-cast-sgx.git
 [submodule "rustcrypto-hashes-sgx"]
 	path = rustcrypto-hashes-sgx
-	url = https://github.com/mesalock-linux/rustcrypto-hashes-sgx
+	url = git@github.com:mesalock-linux/rustcrypto-hashes-sgx.git
 	branch = master
 [submodule "parity-scale-codec-sgx"]
 	path = parity-scale-codec-sgx
-	url = https://github.com/mesalock-linux/parity-scale-codec-sgx.git
+	url = git@github.com:mesalock-linux/parity-scale-codec-sgx.git
 [submodule "ndarray-sgx"]
 	path = ndarray-sgx
-	url = https://github.com/mesalock-linux/ndarray-sgx
+	url = git@github.com:mesalock-linux/ndarray-sgx.git
 [submodule "miniz_oxide-sgx"]
 	path = miniz_oxide-sgx
 	url = git@github.com:mesalock-linux/miniz_oxide-sgx.git
