@@ -280,7 +280,7 @@
 	branch = master
 [submodule "rustls.git"]
 	path = rustls.git
-	url = git@github.com:mesalock-linux/rustls
+	url = git@github.com:mesalock-linux/rustls.git
 	branch = mesalock_sgx
 [submodule "rust-fnv-sgx"]
 	path = rust-fnv-sgx
@@ -396,7 +396,7 @@
 	branch = dig
 [submodule "rust_rdrand-sgx"]
 	path = rust_rdrand-sgx
-	url = git@github.com:mesalock-linux/rust_rdrand-sgx
+	url = git@github.com:mesalock-linux/rust_rdrand-sgx.git
 	branch = master
 [submodule "rustcrypto-utils-sgx"]
 	path = rustcrypto-utils-sgx
