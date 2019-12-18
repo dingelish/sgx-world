@@ -439,3 +439,9 @@
 [submodule "rusty_leveldb_sgx"]
 	path = rusty_leveldb_sgx
 	url = git@github.com:mesalock-linux/rusty_leveldb_sgx.git
+[submodule "sct.rs"]
+	path = sct.rs
+	url = git@github.com:mesalock-linux/sct.rs.git
+[submodule "yasna.rs-sgx"]
+	path = yasna.rs-sgx
+	url = git@github.com:mesalock-linux/yasna.rs-sgx.git
