@@ -445,3 +445,6 @@
 [submodule "yasna.rs-sgx"]
 	path = yasna.rs-sgx
 	url = git@github.com:mesalock-linux/yasna.rs-sgx.git
+[submodule "prost-sgx"]
+	path = prost-sgx
+	url = git@github.com:mesalock-linux/prost-sgx.git

@@ -176,3 +176,5 @@ block-padding = { git = "https://github.com/mesalock-linux/rustcrypto-utils-sgx"
 hex-literal = { git = "https://github.com/mesalock-linux/rustcrypto-utils-sgx", branch = "master" }
 uuid = { git = "https://github.com/mesalock-linux/uuid-sgx", branch = "master", features = ["serde", "v1", "v3", "v4", "v5"] }
 webpki = { git = "https://github.com/mesalock-linux/webpki", branch = "mesalock_sgx" }
+prost = { git = "https://github.com/mesalock-linux/prost-sgx", branch = "master" }
+prost-types = { git = "https://github.com/mesalock-linux/prost-sgx", branch = "master" }
