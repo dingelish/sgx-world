@@ -448,3 +448,6 @@
 [submodule "prost-sgx"]
 	path = prost-sgx
 	url = git@github.com:mesalock-linux/prost-sgx.git
+[submodule "rust-sgx-sdk"]
+	path = rust-sgx-sdk
+	url = git@github.com:apache/incubator-teaclave-sgx-sdk.git
