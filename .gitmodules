@@ -454,3 +454,6 @@
 [submodule "anyhow-sgx"]
 	path = anyhow-sgx
 	url = git@github.com:mesalock-linux/anyhow-sgx.git
+[submodule "thiserror-sgx"]
+	path = thiserror-sgx
+	url = git@github.com:mesalock-linux/thiserror-sgx.git

@@ -97,6 +97,7 @@ sputnikvm = { git = "https://github.com/mesalock-linux/sputnikvm-sgx", branch = 
 subtle = { git = "https://github.com/mesalock-linux/subtle-sgx", branch = "master" }
 take_mut = { git = "https://github.com/mesalock-linux/take_mut-sgx", branch = "master" }
 termcolor = { git = "https://github.com/mesalock-linux/termcolor-sgx", branch = "master" }
+thiserror = { git = "https://github.com/mesalock-linux/thiserror-sgx", branch = "master" }
 thread-id = { git = "https://github.com/mesalock-linux/thread-id-sgx", branch = "master" }
 thread_local = { git = "https://github.com/mesalock-linux/thread_local-rs-sgx", branch = "master" }
 threshold-secret-sharing = { git = "https://github.com/mesalock-linux/rust-threshold-secret-sharing-sgx", branch = "master" }
