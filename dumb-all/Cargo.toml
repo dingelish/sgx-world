@@ -9,6 +9,7 @@ edition = "2018"
 [dependencies]
 adler32 = { git = "https://github.com/mesalock-linux/adler32-rs-sgx", branch = "master" }
 aho-corasick = { git = "https://github.com/mesalock-linux/aho-corasick-sgx", branch = "master" }
+anyhow = { git = "https://github.com/mesalock-linux/anyhow-sgx", branch = "master" }
 array_tool = { git = "https://github.com/mesalock-linux/array_tool-sgx", branch = "master" }
 assert_matches = { git = "https://github.com/mesalock-linux/assert_matches-sgx", branch = "master" }
 base64 = { git = "https://github.com/mesalock-linux/rust-base64-sgx", branch = "master" }

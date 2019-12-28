@@ -451,3 +451,6 @@
 [submodule "rust-sgx-sdk"]
 	path = rust-sgx-sdk
 	url = git@github.com:apache/incubator-teaclave-sgx-sdk.git
+[submodule "anyhow-sgx"]
+	path = anyhow-sgx
+	url = git@github.com:mesalock-linux/anyhow-sgx.git
