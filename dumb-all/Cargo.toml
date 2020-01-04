@@ -100,6 +100,7 @@ termcolor = { git = "https://github.com/mesalock-linux/termcolor-sgx", branch = 
 thiserror = { git = "https://github.com/mesalock-linux/thiserror-sgx", branch = "master" }
 thread-id = { git = "https://github.com/mesalock-linux/thread-id-sgx", branch = "master" }
 thread_local = { git = "https://github.com/mesalock-linux/thread_local-rs-sgx", branch = "master" }
+threadpool = { git = "https://github.com/mesalock-linux/rust-threadpool-sgx", branch = "master" }
 threshold-secret-sharing = { git = "https://github.com/mesalock-linux/rust-threshold-secret-sharing-sgx", branch = "master" }
 tiff = { git = "https://github.com/mesalock-linux/image-tiff-sgx", branch = "master" }
 toml = { git = "https://github.com/mesalock-linux/toml-rs-sgx", branch = "master" }

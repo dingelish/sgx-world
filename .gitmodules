@@ -457,3 +457,6 @@
 [submodule "thiserror-sgx"]
 	path = thiserror-sgx
 	url = git@github.com:mesalock-linux/thiserror-sgx.git
+[submodule "rust-threadpool-sgx"]
+	path = rust-threadpool-sgx
+	url = git@github.com:mesalock-linux/rust-threadpool-sgx.git
