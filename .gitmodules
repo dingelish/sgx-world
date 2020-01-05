@@ -460,3 +460,6 @@
 [submodule "rust-threadpool-sgx"]
 	path = rust-threadpool-sgx
 	url = git@github.com:mesalock-linux/rust-threadpool-sgx.git
+[submodule "jsonpath-sgx"]
+	path = jsonpath-sgx
+	url = git@github.com:mesalock-linux/jsonpath-sgx.git
