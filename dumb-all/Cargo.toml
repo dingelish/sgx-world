@@ -46,7 +46,7 @@ iovec = { git = "https://github.com/mesalock-linux/iovec-sgx", branch = "master"
 itertools = { git = "https://github.com/mesalock-linux/rust-itertools-sgx", branch = "master" }
 itoa = { git = "https://github.com/mesalock-linux/itoa-sgx", branch = "master", features = ["i128"] }
 jpeg-decoder = { git = "https://github.com/mesalock-linux/jpeg-decoder-sgx", branch = "master" }
-jsonpath = { git = "https://github.com/mesalock-linux/jsonpath-sgx", branch = "master" }
+jsonpath_lib = { git = "https://github.com/mesalock-linux/jsonpath-sgx", branch = "master" }
 libflate = { git = "https://github.com/mesalock-linux/libflate-sgx", branch = "master" }
 libsecp256k1 = { git = "https://github.com/mesalock-linux/libsecp256k1-rs-sgx", branch = "master" }
 linked-hash-map = { git = "https://github.com/mesalock-linux/linked-hash-map-sgx", branch = "master", features = ["serde_impl", "heapsize_impl"] }
