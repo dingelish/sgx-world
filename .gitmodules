@@ -463,3 +463,15 @@
 [submodule "jsonpath-sgx"]
 	path = jsonpath-sgx
 	url = git@github.com:mesalock-linux/jsonpath-sgx.git
+[submodule "rust-url-sgx"]
+	path = rust-url-sgx
+	url = git@github.com:mesalock-linux/rust-url-sgx.git
+[submodule "unicode-bidi-sgx"]
+	path = unicode-bidi-sgx
+	url = git@github.com:mesalock-linux/unicode-bidi-sgx.git
+[submodule "rust-std-candidates-sgx"]
+	path = rust-std-candidates-sgx
+	url = git@github.com:mesalock-linux/rust-std-candidates-sgx.git
+[submodule "unicode-normalization-sgx"]
+	path = unicode-normalization-sgx
+	url = git@github.com:mesalock-linux/unicode-normalization-sgx.git

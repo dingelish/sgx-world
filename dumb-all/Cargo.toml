@@ -184,3 +184,10 @@ webpki = { git = "https://github.com/mesalock-linux/webpki", branch = "mesalock_
 # see https://github.com/apache/incubator-teaclave-sgx-sdk/tree/master/samplecode/prost-protobuf
 prost = { git = "https://github.com/mesalock-linux/prost-sgx", branch = "master", default-features = false, features = ["mesalock_sgx"] }
 #prost-types = { git = "https://github.com/mesalock-linux/prost-sgx", branch = "master" } 
+unicode-bidi = { git = "https://github.com/mesalock-linux/unicode-bidi-sgx" }
+matches = { git = "https://github.com/mesalock-linux/rust-std-candidates-sgx" }
+unicode-normalization = { git = "https://github.com/mesalock-linux/unicode-normalization-sgx" }
+url = { git = "https://github.com/mesalock-linux/rust-url-sgx" }
+percent-encoding = { git = "https://github.com/mesalock-linux/rust-url-sgx" }
+idna = { git = "https://github.com/mesalock-linux/rust-url-sgx" }
+data-url = { git = "https://github.com/mesalock-linux/rust-url-sgx" }
