@@ -475,3 +475,6 @@
 [submodule "unicode-normalization-sgx"]
 	path = unicode-normalization-sgx
 	url = git@github.com:mesalock-linux/unicode-normalization-sgx.git
+[submodule "jsonwebtoken-sgx"]
+	path = jsonwebtoken-sgx
+	url = git@github.com:mesalock-linux/jsonwebtoken-sgx.git
