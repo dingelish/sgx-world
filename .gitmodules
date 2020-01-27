@@ -478,3 +478,6 @@
 [submodule "jsonwebtoken-sgx"]
 	path = jsonwebtoken-sgx
 	url = git@github.com:mesalock-linux/jsonwebtoken-sgx.git
+[submodule "rust-smallvec-sgx"]
+	path = rust-smallvec-sgx
+	url = git@github.com:mesalock-linux/rust-smallvec-sgx.git
