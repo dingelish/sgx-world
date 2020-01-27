@@ -192,3 +192,4 @@ percent-encoding = { git = "https://github.com/mesalock-linux/rust-url-sgx" }
 idna = { git = "https://github.com/mesalock-linux/rust-url-sgx" }
 data-url = { git = "https://github.com/mesalock-linux/rust-url-sgx" }
 jsonwebtoken = { git = "https://github.com/mesalock-linux/jsonwebtoken-sgx" }
+smallvec = { git = "https://github.com/mesalock-linux/rust-smallvec-sgx" }
