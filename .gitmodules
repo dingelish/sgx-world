@@ -278,10 +278,6 @@
 	path = humantime-sgx
 	url = git@github.com:mesalock-linux/humantime-sgx.git
 	branch = master
-[submodule "rustls.git"]
-	path = rustls.git
-	url = git@github.com:mesalock-linux/rustls.git
-	branch = mesalock_sgx
 [submodule "rust-fnv-sgx"]
 	path = rust-fnv-sgx
 	url = git@github.com:mesalock-linux/rust-fnv-sgx.git
