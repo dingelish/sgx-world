@@ -250,10 +250,6 @@
 	path = termcolor-sgx
 	url = git@github.com:mesalock-linux/termcolor-sgx.git
 	branch = master
-[submodule "webpki-roots"]
-	path = webpki-roots
-	url = git@github.com:mesalock-linux/webpki-roots.git
-	branch = mesalock_sgx
 [submodule "rust-hex-sgx"]
 	path = rust-hex-sgx
 	url = git@github.com:mesalock-linux/rust-hex-sgx.git
@@ -302,10 +298,6 @@
 	path = serde-json-sgx
 	url = git@github.com:mesalock-linux/serde-json-sgx.git
 	branch = master
-[submodule "webpki"]
-	path = webpki
-	url = git@github.com:mesalock-linux/webpki.git
-	branch = mesalock_sgx
 [submodule "aho-corasick-sgx"]
 	path = aho-corasick-sgx
 	url = git@github.com:mesalock-linux/aho-corasick-sgx.git
