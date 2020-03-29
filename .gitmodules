@@ -466,3 +466,15 @@
 [submodule "rust-smallvec-sgx"]
 	path = rust-smallvec-sgx
 	url = git@github.com:mesalock-linux/rust-smallvec-sgx.git
+[submodule "rustls-sgx"]
+	path = rustls-sgx
+	url = git@github.com:mesalock-linux/rustls.git
+[submodule "sct.rs-sgx"]
+	path = sct.rs-sgx
+	url = git@github.com:mesalock-linux/sct.rs
+[submodule "webpki-sgx"]
+	path = webpki-sgx
+	url = git@github.com:mesalock-linux/webpki
+[submodule "webpki-roots-sgx"]
+	path = webpki-roots-sgx
+	url = git@github.com:mesalock-linux/webpki-roots
