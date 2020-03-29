@@ -8,8 +8,40 @@ for DD in ${submodules[@]}; do
     cd ${DD} && \
     brch=`git branch | grep '\*' | cut -d ' ' -f 2`
     #if [ $brch = "master" ]; then
-        echo ${DD} && git fetch && git status | grep "up to date"
-        #echo ${DD} && git checkout master
+        #echo ${DD} && git fetch && git status | grep "up to date"
+        if [ ${DD} = "./rust-sgx-sdk" ]; then
+            cd ..
+            continue
+        elif [ ${DD} = "./dumb-all" ]; then
+            cd ..
+            continue
+        fi
+
+        branch="master"
+        if [ ${DD} = "./num-bigint-dig-sgx" ]; then
+            branch="dig"
+        elif [ ${DD} = "./rust-protobuf-sgx" ]; then
+            branch="v2.8"
+        elif [ ${DD} = "./mio-sgx" ]; then
+            branch="v0.6_sgx_1.1.0"
+        elif [ ${DD} = "./deflate-rs-sgx" ]; then
+            branch="dev"
+        elif [ ${DD} = "./rustls-sgx" ]; then
+            branch="mesalock_sgx"
+        elif [ ${DD} = "./rusty_leveldb_sgx" ]; then
+            branch="sgx"
+        elif [ ${DD} = "./wabt-rs-sgx" ]; then
+            branch="v0.9-core"
+        elif [ ${DD} = "./sct.rs-sgx" ]; then
+            branch="mesalock_sgx"
+        elif [ ${DD} = "./webpki-sgx" ]; then
+            branch="mesalock_sgx"
+        elif [ ${DD} = "./webpki-roots-sgx" ]; then
+            branch="mesalock_sgx"
+        fi
+            
+        echo ${DD} && git checkout ${branch} && git pull && \
+        git status | grep "up to date"
         retval=$?
         if [ $retval -ne 0 ]; then
             echo "Error " ${DD}
