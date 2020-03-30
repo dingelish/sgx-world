@@ -29,10 +29,6 @@ stage = 2
 git = "https://github.com/apache/teaclave-sgx-sdk.git"
 stage = 2
 
-[dependencies.sgx_tservice]
-git = "https://github.com/apache/teaclave-sgx-sdk.git"
-stage = 2
-
 [dependencies.sgx_tse]
 git = "https://github.com/apache/teaclave-sgx-sdk.git"
 stage = 2
@@ -67,8 +63,8 @@ stage = 4
 
 [dependencies.std]
 git = "https://github.com/apache/teaclave-sgx-sdk.git"
-features = ["backtrace", "net", "thread"]
 stage = 5
+features = ["backtrace", "net", "thread"]
 
 [dependencies.sgx_no_tstd]
 git = "https://github.com/apache/teaclave-sgx-sdk.git"
