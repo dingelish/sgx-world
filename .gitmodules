@@ -478,3 +478,6 @@
 [submodule "webpki-roots-sgx"]
 	path = webpki-roots-sgx
 	url = git@github.com:mesalock-linux/webpki-roots
+[submodule "crc-rs-sgx"]
+	path = crc-rs-sgx
+	url = git@github.com:mesalock-linux/crc-rs-sgx.git
