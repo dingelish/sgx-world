@@ -56,7 +56,7 @@ matrixmultiply = { git = "https://github.com/mesalock-linux/matrixmultiply-sgx",
 miniz_oxide = { git = "https://github.com/mesalock-linux/miniz_oxide-sgx", branch = "master" }
 md5 = { git = "https://github.com/mesalock-linux/md5-sgx", branch = "master" }
 memchr = { git = "https://github.com/mesalock-linux/rust-memchr-sgx", branch = "master" }
-mio = { git = "https://github.com/mesalock-linux/mio-sgx", branch = "v0.6_sgx_1.1.1" }
+mio = { git = "https://github.com/mesalock-linux/mio-sgx", branch = "v0.6_sgx_1.1.2" }
 ndarray = { git = "https://github.com/mesalock-linux/ndarray-sgx", branch = "master" }
 net2 = { git = "https://github.com/mesalock-linux/net2-rs-sgx", branch = "master" }
 num-bigint-dig = { git = "https://github.com/mesalock-linux/num-bigint-sgx", branch = "dig", features = ["rand", "i128", "u64_digit", "prime", "zeroize", "nightly", "serde"] }
@@ -73,7 +73,7 @@ png = { git = "https://github.com/mesalock-linux/image-png-sgx", branch = "maste
 protected_fs_rs = { git = "https://github.com/mesalock-linux/protected_fs_rs", branch = "master", features = ["mesalock_sgx"] }
 quickcheck = { git = "https://github.com/mesalock-linux/quickcheck-sgx", branch = "master" }
 quick-error = { git = "https://github.com/mesalock-linux/quick-error-sgx", branch = "master" }
-rand = { git = "https://github.com/mesalock-linux/rand-sgx", tag = "v0.6.5_sgx1.1.1", features = ["small_rng"] }
+rand = { git = "https://github.com/mesalock-linux/rand-sgx", tag = "v0.7.3_sgx1.1.2", features = ["small_rng"] }
 rdrand = { git = "https://github.com/mesalock-linux/rust_rdrand-sgx", branch = "master" }
 regex = { git = "https://github.com/mesalock-linux/regex-sgx", branch = "master" }
 ring = { git = "https://github.com/mesalock-linux/ring-sgx", tag = "v0.16.5" }
