@@ -63,7 +63,7 @@ stage = 4
 
 [dependencies.std]
 git = "https://github.com/apache/teaclave-sgx-sdk.git"
-features = ["untrusted_fs", "thread", "backtrace", "net"]
+features = ["untrusted_fs", "backtrace", "net"]
 stage = 5
 
 [dependencies.sgx_no_tstd]
