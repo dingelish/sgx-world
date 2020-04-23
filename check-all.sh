@@ -6,6 +6,7 @@ submodules=`find . -maxdepth 1 -not -path '*/\.*' -not -path '.' -type d | xargs
 
 for DD in ${submodules[@]}; do
     cd ${DD} && \
+    git checkout . && \
     brch=`git branch | grep '\*' | cut -d ' ' -f 2`
     #if [ $brch = "master" ]; then
         #echo ${DD} && git fetch && git status | grep "up to date"
@@ -23,7 +24,7 @@ for DD in ${submodules[@]}; do
         elif [ ${DD} = "./rust-protobuf-sgx" ]; then
             branch="v2.8"
         elif [ ${DD} = "./mio-sgx" ]; then
-            branch="v0.6_sgx_1.1.0"
+            branch="v0.6_sgx_1.1.1"
         elif [ ${DD} = "./deflate-rs-sgx" ]; then
             branch="dev"
         elif [ ${DD} = "./rustls-sgx" ]; then
