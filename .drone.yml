@@ -7,7 +7,6 @@ steps:
   commands:
   - . /opt/sgxsdk/environment
   - . /root/.cargo/env
-  - rustup default 1.36.0
   - cargo install cargo-audit
   - cd dumb-all && cargo audit --ignore RUSTSEC-2016-0005
 
