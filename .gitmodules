@@ -481,3 +481,6 @@
 [submodule "crc-rs-sgx"]
 	path = crc-rs-sgx
 	url = git@github.com:mesalock-linux/crc-rs-sgx.git
+[submodule "once_cell-sgx"]
+	path = once_cell-sgx
+	url = git@github.com:mesalock-linux/once_cell-sgx.git

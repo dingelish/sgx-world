@@ -163,6 +163,7 @@ cfb-mode = { git = "https://github.com/mesalock-linux/rustcrypto-stream-ciphers-
 chacha20 = { git = "https://github.com/mesalock-linux/rustcrypto-stream-ciphers-sgx", branch = "master", features = ["xchacha20", "legacy"] }
 ctr = { git = "https://github.com/mesalock-linux/rustcrypto-stream-ciphers-sgx", branch = "master" }
 ofb = { git = "https://github.com/mesalock-linux/rustcrypto-stream-ciphers-sgx", branch = "master" }
+once_cell = { git = "https://github.com/mesalock-linux/once_cell-sgx", branch = "master" }
 salsa20 = { git = "https://github.com/mesalock-linux/rustcrypto-stream-ciphers-sgx", branch = "master" }
 salsa20-core = { git = "https://github.com/mesalock-linux/rustcrypto-stream-ciphers-sgx", branch = "master" }
 aead = { git = "https://github.com/mesalock-linux/rustcrypto-traits-sgx", branch = "master" }
