@@ -487,3 +487,6 @@
 [submodule "msgpack-rust-sgx"]
 	path = msgpack-rust-sgx
 	url = git@github.com:mesalock-linux/msgpack-rust-sgx.git
+[submodule "zbox-sgx"]
+	path = zbox-sgx
+	url = git@github.com:mesalock-linux/zbox-sgx.git
