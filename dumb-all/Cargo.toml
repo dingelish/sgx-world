@@ -78,6 +78,9 @@ rdrand = { git = "https://github.com/mesalock-linux/rust_rdrand-sgx", branch = "
 regex = { git = "https://github.com/mesalock-linux/regex-sgx", branch = "master" }
 ring = { git = "https://github.com/mesalock-linux/ring-sgx", tag = "v0.16.5" }
 rle-decode-fast = { git = "https://github.com/mesalock-linux/rle-decode-helper-sgx", branch = "master" }
+rmp = { git = "https://github.com/mesalock-linux/msgpack-rust-sgx", branch = "master" }
+rmp-serde = { git = "https://github.com/mesalock-linux/msgpack-rust-sgx", branch = "master" }
+rmpv = { git = "https://github.com/mesalock-linux/msgpack-rust-sgx", branch = "master" }
 rsa = { git = "https://github.com/mesalock-linux/rustcrypto-RSA-sgx", branch = "master", features = ["serde1", "expose-internals"] }
 rulinalg = { git = "https://github.com/mesalock-linux/rulinalg-sgx", branch = "master" }
 rust-base58 = { git = "https://github.com/mesalock-linux/rust-base58-sgx", branch = "master" }
@@ -113,6 +116,7 @@ wabt = { git = "https://github.com/mesalock-linux/wabt-rs-sgx", branch = "v0.9-c
 wasmi = { git = "https://github.com/mesalock-linux/wasmi-sgx", branch = "master" }
 webpki-roots = { git = "https://github.com/mesalock-linux/webpki-roots", branch = "mesalock_sgx" }
 yasna = { git = "https://github.com/mesalock-linux/yasna.rs-sgx", branch = "master", features = ["chrono", "bit-vec", "num-bigint"] }
+zbox = { git = "https://github.com/mesalock-linux/zbox-sgx", branch = "master" }
 
 threefish-cipher = { git = "https://github.com/mesalock-linux/cryptocorrosion-sgx", branch = "master" }
 blake-hash = { git = "https://github.com/mesalock-linux/cryptocorrosion-sgx", branch = "master" }
