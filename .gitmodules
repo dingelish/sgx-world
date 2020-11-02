@@ -484,3 +484,6 @@
 [submodule "once_cell-sgx"]
 	path = once_cell-sgx
 	url = git@github.com:mesalock-linux/once_cell-sgx.git
+[submodule "msgpack-rust-sgx"]
+	path = msgpack-rust-sgx
+	url = git@github.com:mesalock-linux/msgpack-rust-sgx.git
