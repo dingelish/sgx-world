@@ -1,3 +1,5 @@
+#![feature(rustc_private)]
+
 #[cfg(test)]
 mod tests {
     #[test]
