@@ -8,7 +8,7 @@ steps:
   - . /opt/sgxsdk/environment
   - . /root/.cargo/env
   - cargo install cargo-audit
-  - cd dumb-all && cargo audit --ignore RUSTSEC-2016-0005
+  - cd dumb-all && cargo audit --ignore RUSTSEC-2016-0005 --ignore RUSTSEC-2020-0023
 
 ---
 kind: pipeline
