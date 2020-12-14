@@ -69,6 +69,7 @@ num-traits = { git = "https://github.com/mesalock-linux/num-traits-sgx" }
 parity-wasm = { git = "https://github.com/mesalock-linux/parity-wasm-sgx" }
 parity-scale-codec = { git = "https://github.com/mesalock-linux/parity-scale-codec-sgx" }
 parity-scale-codec-derive = { git = "https://github.com/mesalock-linux/parity-scale-codec-sgx" }
+pem = { git = "https://github.com/mesalock-linux/pem-rs-sgx" }
 png = { git = "https://github.com/mesalock-linux/image-png-sgx" }
 protected_fs_rs = { git = "https://github.com/mesalock-linux/protected_fs_rs", features = ["mesalock_sgx"] }
 quickcheck = { git = "https://github.com/mesalock-linux/quickcheck-sgx" }
@@ -95,6 +96,7 @@ serde_bytes = { git = "https://github.com/mesalock-linux/serde-bytes-sgx" }
 serde_cbor = { git = "https://github.com/mesalock-linux/cbor-sgx" }
 serde_json = { git = "https://github.com/mesalock-linux/serde-json-sgx" }
 sha1 = { git = "https://github.com/mesalock-linux/rust-sha1-sgx", features = ["serde"] }
+simple_asn1 = { git = "https://github.com/mesalock-linux/simple_asn1-sgx" }
 slab = { git = "https://github.com/mesalock-linux/slab-sgx" }
 snap = { git = "https://github.com/mesalock-linux/rust-snappy-sgx" }
 sputnikvm = { git = "https://github.com/mesalock-linux/sputnikvm-sgx" }
@@ -198,3 +200,6 @@ idna = { git = "https://github.com/mesalock-linux/rust-url-sgx" }
 data-url = { git = "https://github.com/mesalock-linux/rust-url-sgx" }
 jsonwebtoken = { git = "https://github.com/mesalock-linux/jsonwebtoken-sgx" }
 smallvec = { git = "https://github.com/mesalock-linux/rust-smallvec-sgx", features = ["write", "union", "specialization", "may_dangle"] }
+
+[patch.'https://github.com/mesalock-linux/rust-base64-sgx']
+base64 = { path = "../rust-base64-sgx" }

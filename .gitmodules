@@ -490,3 +490,9 @@
 [submodule "zbox-sgx"]
 	path = zbox-sgx
 	url = git@github.com:mesalock-linux/zbox-sgx.git
+[submodule "pem-rs-sgx"]
+	path = pem-rs-sgx
+	url = git@github.com:mesalock-linux/pem-rs-sgx.git
+[submodule "simple_asn1-sgx"]
+	path = simple_asn1-sgx
+	url = git@github.com:mesalock-linux/simple_asn1-sgx.git

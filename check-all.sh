@@ -24,7 +24,7 @@ for DD in ${submodules[@]}; do
         elif [ ${DD} = "./rust-protobuf-sgx" ]; then
             branch="v2.8"
         elif [ ${DD} = "./mio-sgx" ]; then
-            branch="v0.6_sgx_1.1.1"
+            branch="v0.6_sgx_1.1.3"
         elif [ ${DD} = "./deflate-rs-sgx" ]; then
             branch="dev"
         elif [ ${DD} = "./rustls-sgx" ]; then
