@@ -200,6 +200,3 @@ idna = { git = "https://github.com/mesalock-linux/rust-url-sgx" }
 data-url = { git = "https://github.com/mesalock-linux/rust-url-sgx" }
 jsonwebtoken = { git = "https://github.com/mesalock-linux/jsonwebtoken-sgx" }
 smallvec = { git = "https://github.com/mesalock-linux/rust-smallvec-sgx", features = ["write", "union", "specialization", "may_dangle"] }
-
-[patch.'https://github.com/mesalock-linux/rust-base64-sgx']
-base64 = { path = "../rust-base64-sgx" }
