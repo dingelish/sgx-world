@@ -60,12 +60,13 @@ mio = { git = "https://github.com/mesalock-linux/mio-sgx", branch = "v0.6_sgx_1.
 ndarray = { git = "https://github.com/mesalock-linux/ndarray-sgx" }
 net2 = { git = "https://github.com/mesalock-linux/net2-rs-sgx" }
 num-bigint-dig = { git = "https://github.com/mesalock-linux/num-bigint-sgx", branch = "dig", features = ["rand", "i128", "u64_digit", "prime", "zeroize", "nightly", "serde"] }
-num-complex = { git = "https://github.com/mesalock-linux/num-complex-sgx", features = ["rand"] }
 num = { git = "https://github.com/mesalock-linux/num-sgx" }
+num-complex = { git = "https://github.com/mesalock-linux/num-complex-sgx", features = ["rand"] }
 num-integer = { git = "https://github.com/mesalock-linux/num-integer-sgx", features = ["i128"] }
 num-iter = { git = "https://github.com/mesalock-linux/num-iter-sgx" }
 num-rational = { git = "https://github.com/mesalock-linux/num-rational-sgx" }
 num-traits = { git = "https://github.com/mesalock-linux/num-traits-sgx" }
+num_cpus = { git = "https://github.com/mesalock-linux/num_cpus-sgx" }
 parity-wasm = { git = "https://github.com/mesalock-linux/parity-wasm-sgx" }
 parity-scale-codec = { git = "https://github.com/mesalock-linux/parity-scale-codec-sgx" }
 parity-scale-codec-derive = { git = "https://github.com/mesalock-linux/parity-scale-codec-sgx" }

@@ -496,3 +496,6 @@
 [submodule "simple_asn1-sgx"]
 	path = simple_asn1-sgx
 	url = git@github.com:mesalock-linux/simple_asn1-sgx.git
+[submodule "num_cpus-sgx"]
+	path = num_cpus-sgx
+	url = git@github.com:mesalock-linux/num_cpus-sgx.git
