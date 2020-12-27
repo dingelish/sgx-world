@@ -1,8 +1,11 @@
+cargo-features = ["resolver"]
+
 [package]
 name = "dumb-all"
 version = "0.1.0"
 authors = ["Yu Ding <dingelish@gmail.com>"]
 edition = "2018"
+resolver = "2"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -28,6 +31,7 @@ env_logger = { git = "https://github.com/mesalock-linux/env_logger-sgx" }
 erased-serde = { git = "https://github.com/mesalock-linux/erased-serde-sgx" }
 failure = { git = "https://github.com/mesalock-linux/failure-sgx" }
 fnv = { git = "https://github.com/mesalock-linux/rust-fnv-sgx" }
+futures = { git = "https://github.com/mesalock-linux/futures-rs-sgx", features = ["std", "alloc", "executor", "async-await"] }
 getrandom = { git = "https://github.com/mesalock-linux/getrandom-sgx" }
 gif = { git = "https://github.com/mesalock-linux/image-gif-sgx" }
 gzip-header = { git = "https://github.com/mesalock-linux/gzip-header-sgx" }
@@ -191,7 +195,7 @@ webpki = { git = "https://github.com/mesalock-linux/webpki", branch = "mesalock_
 # prost and prost-types can be used, but dumb-all seems cannot depend on them
 # see https://github.com/apache/incubator-teaclave-sgx-sdk/tree/master/samplecode/prost-protobuf
 prost = { git = "https://github.com/mesalock-linux/prost-sgx", default-features = false, features = ["mesalock_sgx"] }
-#prost-types = { git = "https://github.com/mesalock-linux/prost-sgx" } 
+prost-types = { git = "https://github.com/mesalock-linux/prost-sgx" } 
 unicode-bidi = { git = "https://github.com/mesalock-linux/unicode-bidi-sgx" }
 matches = { git = "https://github.com/mesalock-linux/rust-std-candidates-sgx" }
 unicode-normalization = { git = "https://github.com/mesalock-linux/unicode-normalization-sgx" }
