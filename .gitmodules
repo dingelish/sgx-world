@@ -502,3 +502,9 @@
 [submodule "futures-rs-sgx"]
 	path = futures-rs-sgx
 	url = git@github.com:mesalock-linux/futures-rs-sgx.git
+[submodule "libc-sgx"]
+	path = libc-sgx
+	url = git@github.com:mesalock-linux/libc-sgx.git
+[submodule "cfg-if-for-sysroot-sgx"]
+	path = cfg-if-for-sysroot-sgx
+	url = git@github.com:mesalock-linux/cfg-if-for-sysroot.git
